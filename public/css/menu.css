@@ -1,0 +1,195 @@
+        #menu-bd {
+            background: rgb(250, 207, 211);
+            transition-duration: 0.5s;
+        }
+
+        .icons-bd {
+            color: rgb(255, 234, 236);
+            font-size: 45px;
+            position: relative;
+            top: 25px;
+            transition-duration: 0.1s;
+            transition-property: color;
+        }
+
+        .icons-bd-main {
+            color: rgb(248, 68, 98);
+            transition-duration: 0.5s;
+        }
+
+        .icons-bd-main-x {
+            color: rgb(255, 234, 236);
+            transition-duration: 0.5s;
+        }
+
+        .menu-layout {
+            position: fixed;
+            top: 70vh;
+            right: -350px;
+            height: 500px;
+            width: 500px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .menu-button {
+            width: 90px;
+            height: 90px;
+            top: 100px;
+            background-color: red;
+            border-radius: 50px;
+            position: relative;
+            z-index: 10 !important;
+            box-shadow:0px 0px 15px rgb(255, 234, 236);
+        }
+
+        .menu-button:hover {
+            cursor: pointer;
+        }
+
+        .bd-prop {
+            cursor: pointer;
+            background: #ff596d;
+            transition-duration: 0.1s;
+            transition-property: background;
+        }
+
+        .bd-prop:hover {
+            background: rgb(255, 234, 236);
+            transition-duration: 0.1s;
+            transition-property: background;
+        }
+
+        .bd-prop:hover .icons-bd {
+            color: #ff596d;
+            transition-duration: 0.1s;
+            transition-property: color;
+        }
+
+        .home-bd {
+            width: 90px;
+            height: 90px;
+            border-radius: 50px;
+            position: relative;
+            opacity: 0;
+            box-shadow:0px 0px 10px rgb(180, 11, 62);
+        }
+
+        .about-bd {
+            width: 90px;
+            height: 90px;
+            top: -100px;
+            border-radius: 50px;
+            position: relative;
+            opacity: 0;
+            box-shadow:0px 0px 10px rgb(180, 11, 62);
+        }
+
+        .contact-bd {
+            width: 90px;
+            height: 90px;
+            top: -200px;
+            border-radius: 50px;
+            position: relative;
+            opacity: 0;
+            box-shadow:0px 0px 10px rgb(180, 11, 62);
+        }
+        
+        /* -------notification -------- */
+    .notif-bd {
+        max-height: 500px;
+        width: 350px;
+        border: 1px solid rgb(216, 214, 214);
+        margin: 0 auto;
+        overflow: scroll;
+        background-color: rgba(240, 164, 164, 0.3);
+    }
+
+    .notif-bd-post {
+        height: 60px !important;
+        overflow: hidden !important;
+        border-bottom: 1px solid rgb(75, 91, 236);
+        border-left: 6px solid rgb(75, 91, 236);
+    }
+
+    .notif-bd-post .notif-icon {
+        font-size: 30px;
+        text-align: center;
+        color: rgb(88, 105, 255);
+    }
+
+    .notif-bd-post .notif-username {
+        font-size: 18px;
+        color: rgb(18, 27, 110);
+    }
+
+    .notif-bd-post .notif-info {
+        font-size: 12px;
+        color: rgb(88, 105, 255);
+        text-align: justify;
+    }
+
+    .notif-bd-post .notif-date {
+        font-size: 7px;
+        color: rgb(18, 27, 110);
+    }
+
+    .notif-bd-bloodr {
+        height: 70px !important;
+        overflow: hidden !important;
+        border-bottom: 1px solid rgb(180, 11, 62);
+        border-left: 6px solid rgb(180, 11, 62);
+        margin-bottom: 1px;
+    }
+
+    .notif-bd-bloodr .notif-icon {
+        font-size: 30px;
+        text-align: center;
+        color: rgb(255, 88, 102);
+    }
+
+    .notif-bd-bloodr .notif-username {
+        font-size: 18px;
+        color: rgb(202, 0, 67);
+    }
+
+    .notif-bd-bloodr .notif-info {
+        font-size: 12px;
+        color: rgb(255, 88, 102);
+        text-align: justify;
+    }
+
+    .notif-bd-bloodr .notif-date {
+        font-size: 10px;
+        color: rgb(153, 0, 51);
+    }
+
+    .notif-bd-event {
+        height: 90px !important;
+        overflow: hidden !important;
+        border-bottom: 1px solid rgb(90, 11, 180);
+        border-left: 6px solid rgb(79, 0, 182);
+    }
+
+    .notif-bd-event .notif-icon {
+        font-size: 30px;
+        text-align: center;
+        color: rgb(79, 0, 182);
+
+    }
+
+    .notif-bd-event .notif-username {
+        font-size: 18px;
+        color: rgb(119, 0, 216);
+    }
+
+    .notif-bd-event .notif-info {
+        font-size: 12px;
+        color: rgb(146, 88, 255);
+        text-align: justify;
+    }
+
+    .notif-bd-event .notif-date {
+        font-size: 10px;
+        color: rgb(119, 0, 216);
+    }
